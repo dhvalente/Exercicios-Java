@@ -1,0 +1,17 @@
+package Lista_06.Locadora;
+
+public class Filme {
+    private String nome;
+    private GeneroEnum genero;
+    private FaixaEtariaEnum faixaEtaria;
+
+    public Filme(String nome, GeneroEnum genero, FaixaEtariaEnum faixaEtaria) {
+        this.nome = nome;
+        this.genero = genero;
+        this.faixaEtaria = faixaEtaria;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+}
